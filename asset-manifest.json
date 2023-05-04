@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/matttang-portfolio/static/css/main.437eab7c.css",
+    "main.js": "/matttang-portfolio/static/js/main.8e990b11.js",
+    "static/media/me.png": "/matttang-portfolio/static/media/me.ba4a6537d737aae0d5de.png",
+    "static/media/code2.png": "/matttang-portfolio/static/media/code2.991831d0a626b3b8e8b3.png",
+    "index.html": "/matttang-portfolio/index.html",
+    "main.437eab7c.css.map": "/matttang-portfolio/static/css/main.437eab7c.css.map",
+    "main.8e990b11.js.map": "/matttang-portfolio/static/js/main.8e990b11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.437eab7c.css",
+    "static/js/main.8e990b11.js"
+  ]
+}
