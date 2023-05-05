@@ -12,12 +12,12 @@ const Home = () => {
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
       <div className="flex flex-col justify-center h-full">
         <h2 className="text-4xl sm:text-7xl font-bold text-white">
-          I'm a Full Stack Web Developer
+          Matthew Tang
         </h2>
         <p className="text-gray-500 py-4 max-w-md">
-           I have 4 years of experience in graphics design and web development.
-          Currently, I love to work on web application using technologies like
-          React, Tailwind, Next.js and Mongodb.
+           Hi, I'm a software engineer with skills in both backend and frontend development. 
+           I've recently worked at Amazon, and have a Master's in computer science from the University of Illinois at Urbana Champaign.
+           Check out some of my experiences and projects on my website. 
         </p>
         <div>
           <Link
