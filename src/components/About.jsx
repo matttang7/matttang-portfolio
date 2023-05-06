@@ -1,4 +1,41 @@
 import React from "react";
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+
+const data = [
+  {
+    label: "HTML",
+    value: "html",
+    desc: `It really matters and then like it really doesn't matter.
+    What matters is the people who are sparked by it. And the people
+    who are like offended by it, it doesn't matter.`,
+  },
+  {
+    label: "React",
+    value: "react",
+    desc: `Because it's about motivating the doers. Because I'm here
+    to follow my dreams and inspire other people to follow their dreams, too.`,
+  },
+  {
+    label: "Vue",
+    value: "vue",
+    desc: `We're not always in the position that we want to be at.
+    We're constantly growing. We're constantly making mistakes. We're
+    constantly trying to express ourselves and actualize our dreams.`,
+  },
+  {
+    label: "Angular",
+    value: "angular",
+    desc: `Because it's about motivating the doers. Because I'm here
+    to follow my dreams and inspire other people to follow their dreams, too.`,
+  },
+  {
+    label: "Svelte",
+    value: "svelte",
+    desc: `We're not always in the position that we want to be at.
+    We're constantly growing. We're constantly making mistakes. We're
+    constantly trying to express ourselves and actualize our dreams.`,
+  },
+];
 
 const About = () => { 
   return (
@@ -18,20 +55,43 @@ const About = () => {
             <div></div>
           </div>
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-            <div className="sm:text-right text-4xl font-bold">
+            <div className="sm:text-right text-2xl font-bold">
               <p>
-                Hi. I'm Taminoturoko Briggs, nice to meet you. Please take a
+                Hi. I'm Matthew Tang, nice to meet you. Please take a
                 look around.
               </p>
             </div>
             <div>
-              <p>
-                {" "}
-                A software developer with experience in building Responsive and
-                Scalable Web apps. I am well-knowledged in UI/UX principles and
-                practices. In addition to software development, I am also a
-                technical writer--simplifying topics/concepts on the web.
-              </p>
+            <Tabs>
+              <TabList>
+                <Tab>
+                  <p>Amazon</p>
+                </Tab>
+                <Tab>
+                  <p>Country Financial</p>
+                </Tab>
+                <Tab>
+                  <p>National Science Foundation</p>
+                </Tab>
+              </TabList>
+
+              <TabPanel>
+                <div className="panel-content">
+                  <h2>Any content 1</h2>
+                </div>
+              </TabPanel>
+              <TabPanel>
+                <div className="panel-content">
+                  <h2>Any content 2</h2>
+                </div>
+              </TabPanel>
+              <TabPanel>
+                <div className="panel-content">
+                  <h2>Any content 3</h2>
+                </div>
+              </TabPanel>
+              
+            </Tabs>
             </div>
           </div>
         </div>
