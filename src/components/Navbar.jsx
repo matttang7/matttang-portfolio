@@ -22,22 +22,22 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex gap-x-8'>
         <li>
-          <Link to='home' smooth={true} duration={500}>
+          <Link to='home' smooth={true} duration={500} href="#">
             Home
           </Link>
         </li>
         <li>
-          <Link to='about' smooth={true} duration={500}>
+          <Link to='about' smooth={true} duration={500} href="#">
             About
           </Link>
         </li>
         <li>
-          <Link to='projects' smooth={true} duration={500}>
+          <Link to='projects' smooth={true} duration={500} href="#">
             Projects
           </Link>
         </li>
         <li>
-          <Link to='contact' smooth={true} duration={500}>
+          <Link to='contact' smooth={true} duration={500} href="#">
             Contact
           </Link>
         </li>
