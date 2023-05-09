@@ -8,12 +8,12 @@
     }
     li {
         @apply px-4;
-        @apply cursor-pointer
     }
 }
 .content-div {
+    display: inline-block;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     height: 250px;
 }
@@ -25,6 +25,7 @@
     )!important;
 }
 .project-tech-list {
+    text-align: center;
     display: flex;
     flex-direction: row;
 }
