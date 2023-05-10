@@ -29,6 +29,19 @@
     display: flex;
     flex-direction: row;
 }
+.about-tech-list {
+    font-size:20px;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style: none
+}
+.list::before {
+    content:"• ";
+}
+.p1 {
+    font-size:20px;
+}
 .Chrono {
     z-index: -1;
 }

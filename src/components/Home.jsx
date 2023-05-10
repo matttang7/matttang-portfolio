@@ -14,9 +14,8 @@ const Home = () => {
           Matthew Tang
         </h2>
         <p className="text-gray-500 py-4 max-w-md">
-           Hi, I'm a software engineer with skills in both backend and frontend development. 
-           I've recently worked at Amazon, and have a Master's in computer science from the University of Illinois at Urbana Champaign.
-           Check out some of my experiences and projects on my website. 
+           I'm a software engineer with skills in full stack development. 
+           Check out some of my experiences and projects on this website. 
         </p>
         <div>
           <Link
