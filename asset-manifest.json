@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/matttang-portfolio/static/css/main.be1b2819.css",
-    "main.js": "/matttang-portfolio/static/js/main.8df0fbec.js",
+    "main.css": "/matttang-portfolio/static/css/main.33f3d055.css",
+    "main.js": "/matttang-portfolio/static/js/main.a71b38c8.js",
     "static/media/nsf.png": "/matttang-portfolio/static/media/nsf.6ad69a66c4a1a3645b68.png",
     "static/media/database.png": "/matttang-portfolio/static/media/database.1f537ecbef349380ddf1.png",
     "static/media/mm26.jpg": "/matttang-portfolio/static/media/mm26.c02fd610680a1f951ec0.jpg",
-    "static/media/Matthew_Tang_resume.pdf": "/matttang-portfolio/static/media/Matthew_Tang_resume.1c7ed7b3ff2c75b2e7c6.pdf",
+    "static/media/Matthew_Tang_resume.pdf": "/matttang-portfolio/static/media/Matthew_Tang_resume.8817da7d31b9cd1e72f8.pdf",
     "static/media/extension.PNG": "/matttang-portfolio/static/media/extension.4d7a27728b793fd4b74e.PNG",
     "static/media/smaps.jpg": "/matttang-portfolio/static/media/smaps.fb50509f7e413bf2b23f.jpg",
     "static/media/moodsic.PNG": "/matttang-portfolio/static/media/moodsic.58a95fcf53511cb2a103.PNG",
     "index.html": "/matttang-portfolio/index.html",
-    "main.be1b2819.css.map": "/matttang-portfolio/static/css/main.be1b2819.css.map",
-    "main.8df0fbec.js.map": "/matttang-portfolio/static/js/main.8df0fbec.js.map"
+    "main.33f3d055.css.map": "/matttang-portfolio/static/css/main.33f3d055.css.map",
+    "main.a71b38c8.js.map": "/matttang-portfolio/static/js/main.a71b38c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.be1b2819.css",
-    "static/js/main.8df0fbec.js"
+    "static/css/main.33f3d055.css",
+    "static/js/main.a71b38c8.js"
   ]
 }
